@@ -1,0 +1,15 @@
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\bin\Debug\net10.0\exercicioscondicionais.exe
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\bin\Debug\net10.0\exercicioscondicionais.deps.json
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\bin\Debug\net10.0\exercicioscondicionais.runtimeconfig.json
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\bin\Debug\net10.0\exercicioscondicionais.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\bin\Debug\net10.0\exercicioscondicionais.pdb
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.AssemblyInfoInputs.cache
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.AssemblyInfo.cs
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.csproj.CoreCompileInputs.cache
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\refint\exercicioscondicionais.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.pdb
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercicioscondicionais.genruntimeconfig.cache
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\ref\exercicioscondicionais.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\exercicioscondicionais\obj\Debug\net10.0\exercici.C65FB505.Up2Date
