@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exercicioscondicionais")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1c40a4b3efb38c946d4aeb1cc0057906ce71d8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("exercicioscondicionais")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exercicioscondicionais")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

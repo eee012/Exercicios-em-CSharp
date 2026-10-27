@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C68ABF7-E213-6B89-F526-B1B3EEAD2EC6}|exercicioscondicionais\\exercicioscondicionais.csproj|c:\\users\\46038851801\\source\\repos\\exercicioscondicionais\\exercicioscondicionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C68ABF7-E213-6B89-F526-B1B3EEAD2EC6}|exercicioscondicionais\\exercicioscondicionais.csproj|solutionrelative:exercicioscondicionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242D0F96-E2B0-4EED-9514-7F8E7F6D2BAE}|desafiocondicional\\desafiocondicional.csproj|c:\\users\\46038851801\\source\\repos\\exercicioscondicionais\\desafiocondicional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242D0F96-E2B0-4EED-9514-7F8E7F6D2BAE}|desafiocondicional\\desafiocondicional.csproj|solutionrelative:desafiocondicional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\46038851801\\source\\repos\\exercicioscondicionais\\desafiocondicional\\Program.cs",
+              "RelativeDocumentMoniker": "desafiocondicional\\Program.cs",
+              "ToolTip": "C:\\Users\\46038851801\\source\\repos\\exercicioscondicionais\\desafiocondicional\\Program.cs",
+              "RelativeToolTip": "desafiocondicional\\Program.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwHAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T18:38:27.446Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +45,7 @@
               "RelativeDocumentMoniker": "exercicioscondicionais\\Program.cs",
               "ToolTip": "C:\\Users\\46038851801\\source\\repos\\exercicioscondicionais\\exercicioscondicionais\\Program.cs",
               "RelativeToolTip": "exercicioscondicionais\\Program.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAowFoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAAAAMBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T20:01:40.73Z",
               "EditorCaption": ""

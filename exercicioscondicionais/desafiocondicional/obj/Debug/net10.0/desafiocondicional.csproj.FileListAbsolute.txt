@@ -1,0 +1,16 @@
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\bin\Debug\net10.0\desafiocondicional.exe
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\bin\Debug\net10.0\desafiocondicional.deps.json
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\bin\Debug\net10.0\desafiocondicional.runtimeconfig.json
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\bin\Debug\net10.0\desafiocondicional.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\bin\Debug\net10.0\desafiocondicional.pdb
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.AssemblyInfoInputs.cache
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.AssemblyInfo.cs
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.csproj.CoreCompileInputs.cache
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.sourcelink.json
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\refint\desafiocondicional.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.pdb
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafiocondicional.genruntimeconfig.cache
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\ref\desafiocondicional.dll
+C:\Users\46038851801\source\repos\exercicioscondicionais\desafiocondicional\obj\Debug\net10.0\desafioc.9DA60BFE.Up2Date
