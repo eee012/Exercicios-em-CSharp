@@ -1,0 +1,16 @@
+C:\Users\46038851801\source\repos\EstruturaRepeticao\bin\Debug\net10.0\EstruturaRepeticao.exe
+C:\Users\46038851801\source\repos\EstruturaRepeticao\bin\Debug\net10.0\EstruturaRepeticao.deps.json
+C:\Users\46038851801\source\repos\EstruturaRepeticao\bin\Debug\net10.0\EstruturaRepeticao.runtimeconfig.json
+C:\Users\46038851801\source\repos\EstruturaRepeticao\bin\Debug\net10.0\EstruturaRepeticao.dll
+C:\Users\46038851801\source\repos\EstruturaRepeticao\bin\Debug\net10.0\EstruturaRepeticao.pdb
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.AssemblyInfoInputs.cache
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.AssemblyInfo.cs
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.sourcelink.json
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.dll
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\refint\EstruturaRepeticao.dll
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.pdb
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\EstruturaRepeticao.genruntimeconfig.cache
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\ref\EstruturaRepeticao.dll
+C:\Users\46038851801\source\repos\EstruturaRepeticao\obj\Debug\net10.0\Estrutur.E896305B.Up2Date
