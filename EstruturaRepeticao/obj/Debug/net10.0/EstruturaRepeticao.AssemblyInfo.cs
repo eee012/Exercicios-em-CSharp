@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstruturaRepeticao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d7fd1bb24c067751f580f1a68918a78568cae90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ed8cbd624c4c3f855cb7839f81e4def03f83960")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstruturaRepeticao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstruturaRepeticao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
