@@ -95,16 +95,16 @@ using System.Threading.Channels;
 bool confirmacao_fruitend = false;
 string confirmacao_fruit;
 string confirmacao_add;
-bool confirmacao_addend;
+bool confirmacao_addend = false;
 List<string> frutas = new List<string>();
 
 do
 {
-    Console.WriteLine("Digite as frutas guardadas:");
+    Console.WriteLine("Digite uma fruta a guardar:");
     string frutas_guard = Console.ReadLine()!;
     frutas.Add(frutas_guard);
 
-    Console.WriteLine("Deseja continuar? (S/N)");
+    Console.WriteLine("Deseja adicionar mais uma? (S/N)");
     confirmacao_fruit = Console.ReadLine()!.ToUpper();
 
     while (confirmacao_fruit != "S" && confirmacao_fruit != "N")
@@ -123,19 +123,28 @@ do
     }
 
 } while (confirmacao_fruitend == false);
-
+Console.WriteLine("Sua lista e: ");
 foreach (string fruta in frutas)
 {
     Console.WriteLine(fruta);
 }
-Console.WriteLine("Deseja adicionar mais uma fruta?");
-string add_fruit = Console.ReadLine()!;
 
-if  (add_fruit == "S")
-{
-    Console.WriteLine("Qual seria?");
-    string frutas_guard = Console.ReadLine()!;
-    frutas.Add(frutas_guard);
-    Console.WriteLine("Mais alguma?");
-    confirmacao_add = Console.ReadLine();
-}
+
+//Console.WriteLine("Deseja adicionar mais uma fruta?");
+//string add_fruit = Console.ReadLine()!;
+
+//if  (add_fruit == "S")
+//{
+//    Console.WriteLine("Qual seria?");
+//    string frutas_guard = Console.ReadLine()!;
+//    frutas.Add(frutas_guard);
+//    Console.WriteLine("Mais alguma?");
+//    confirmacao_add = Console.ReadLine();
+
+//}
+//foreach (string fruta in frutas)
+//{
+//    Console.WriteLine(fruta);
+//}
+
+//terminar em casa junto dos outros exercicios
