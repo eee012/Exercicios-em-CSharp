@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
+using System.Runtime.CompilerServices;
 //Verificando conexao com banco de dados:
 //Criar a tabela para trabalhar com persistencia de dados
 
@@ -34,6 +35,18 @@ do
         case 2:
             AdicionarFrutas();
             break;
+        case 3:
+            AtualizarFrutas();
+            break;
+        case 4:
+            DeletarFrutas();
+            break;
+        case 5:
+            VerificarExiste();
+            break;
+        case 6:
+            OrdenarLista();
+            break;
     case 0:
         Console.WriteLine("Ate Mais!");
         break;
@@ -58,6 +71,7 @@ void ListarFrutas()
     {
         listaFrutas.Add(leitor.GetString(0));
     }
+    leitor.Close();
 
     foreach (var f in listaFrutas)
     {
@@ -109,4 +123,85 @@ void AdicionarFrutas()
         listaFrutas.Add(frutanova);
         Console.WriteLine($"{frutanova} adicionada com sucesso!");
     }
+}
+
+void AtualizarFrutas()
+{
+    Console.WriteLine("====Lista de Frutas====");
+    ListarFrutas();
+
+    Console.WriteLine("Digite a fruta que quer alterar: ");
+    string frutausuario = Console.ReadLine()!;
+
+    Console.WriteLine($"Que fruta deseja colocar no lugar de {frutausuario}?");
+    string frutanovauser = Console.ReadLine()!;
+
+    int indice = listaFrutas.IndexOf(frutausuario);
+
+    if (indice == -1)
+    {
+        Console.WriteLine("A fruta nao existe ou nao foi encontrada!");
+    }
+    else if (frutanovauser == "" || listaFrutas.Contains(frutanovauser))
+    {
+        Console.WriteLine("Nome da fruta vazio ou ja existe.");
+    }
+    else
+    {
+        var atualizar = conn.CreateCommand();
+        atualizar.CommandText = "UPDATE frutas SET nomeFruta = $novoNome WHERE nomeFruta = $antigoNome";
+        atualizar.Parameters.AddWithValue("$novoNome", frutanovauser);
+        atualizar.Parameters.AddWithValue("$antigoNome", frutausuario);
+        atualizar.ExecuteNonQuery();
+
+        listaFrutas[indice] = frutanovauser;
+        Console.WriteLine($"A fruta {frutausuario} foi atualizada para {frutanovauser}");
+    }
+}
+void DeletarFrutas()
+{
+    ListarFrutas();
+    Console.WriteLine("Informe o nome da fruta a deletar: ");
+    string frutatodelete = Console.ReadLine()!;
+    if (!listaFrutas.Contains(frutatodelete))
+    {
+        Console.WriteLine("Fruta nao encontrada.");
+    }
+    else
+    {
+        var deletar = conn.CreateCommand();
+        deletar.CommandText = "DELETE FROM frutas WHERE nomeFruta = $frutaDelete";
+        deletar.Parameters.AddWithValue("$frutaDelete", frutatodelete);
+        deletar.ExecuteNonQuery();
+
+        listaFrutas.Remove(frutatodelete);
+        Console.WriteLine("Fruta deletada com sucesso!");
+    }
+}
+
+void VerificarExiste()
+{
+    Console.WriteLine("Informe a fruta a verificar: ");
+    string verificacao = Console.ReadLine()!;
+
+    var buscar = conn.CreateCommand();
+    buscar.CommandText = "SELECT COUNT(1) FROM frutas WHERE nomeFruta = $verificacaoFruta";
+    buscar.Parameters.AddWithValue("$verificacaoFruta", verificacao); 
+    buscar.ExecuteNonQuery();
+
+    int quantidade = Convert.ToInt32(buscar.ExecuteScalar());
+
+    if (listaFrutas.Contains(verificacao) && quantidade > 0)
+    {
+        Console.WriteLine($"A fruta {verificacao} esta na lista!");
+    }
+    else
+    {
+        Console.WriteLine("Fruta nao encontrada!");
+    }
+}
+
+void OrdenarLista()
+{
+
 }
