@@ -1,0 +1,16 @@
+C:\Users\46038851801\source\repos\Explicação POO Leve\bin\Debug\net10.0\Explicação POO.exe
+C:\Users\46038851801\source\repos\Explicação POO Leve\bin\Debug\net10.0\Explicação POO.deps.json
+C:\Users\46038851801\source\repos\Explicação POO Leve\bin\Debug\net10.0\Explicação POO.runtimeconfig.json
+C:\Users\46038851801\source\repos\Explicação POO Leve\bin\Debug\net10.0\Explicação POO.dll
+C:\Users\46038851801\source\repos\Explicação POO Leve\bin\Debug\net10.0\Explicação POO.pdb
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.AssemblyInfoInputs.cache
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.AssemblyInfo.cs
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.csproj.CoreCompileInputs.cache
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.sourcelink.json
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.dll
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\refint\Explicação POO.dll
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.pdb
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explicação POO.genruntimeconfig.cache
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\ref\Explicação POO.dll
+C:\Users\46038851801\source\repos\Explicação POO Leve\obj\Debug\net10.0\Explica_.BBB5BA5F.Up2Date

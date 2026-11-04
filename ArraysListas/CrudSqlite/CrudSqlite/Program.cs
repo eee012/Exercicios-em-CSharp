@@ -17,6 +17,11 @@ Console.WriteLine($"Banco frutas criado em: {Path.GetFullPath("frutas.db")}");
 
 
 List<string> listaFrutas = new List<string>();
+
+ListarFrutas();
+Console.Clear();
+
+
 int opcao;
 do
 {
@@ -187,7 +192,6 @@ void VerificarExiste()
     var buscar = conn.CreateCommand();
     buscar.CommandText = "SELECT COUNT(1) FROM frutas WHERE nomeFruta = $verificacaoFruta";
     buscar.Parameters.AddWithValue("$verificacaoFruta", verificacao); 
-    buscar.ExecuteNonQuery();
 
     int quantidade = Convert.ToInt32(buscar.ExecuteScalar());
 
@@ -203,5 +207,31 @@ void VerificarExiste()
 
 void OrdenarLista()
 {
+    ListarFrutas();
+    Console.Clear();
 
+    Console.WriteLine("Como deseja ordenar?");
+    Console.WriteLine("[1] - A-Z (Ascendente)");
+    Console.WriteLine("[2] - Z-A (Decrescente)");
+    string escolha = Perguntar("Opção: ");
+
+    if (escolha == "1")
+    {
+        listaFrutas = listaFrutas.OrderBy(f => f).ToList();
+        Console.WriteLine("\n=== Lista Ordenada (A-Z) ===");
+    }
+    else if (escolha == "2")
+    {
+        listaFrutas = listaFrutas.OrderByDescending(f => f).ToList();
+        Console.WriteLine("\n=== Lista Ordenada (Z-A) ===");
+    }
+    else
+    {
+        Console.WriteLine("Opção inválida! Exibindo na ordem padrão.");
+    }
+
+    foreach (var fruta in listaFrutas)
+    {
+        Console.WriteLine(fruta);
+    }
 }
