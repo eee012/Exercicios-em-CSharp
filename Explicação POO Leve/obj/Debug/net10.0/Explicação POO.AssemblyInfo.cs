@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Explicação POO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18404098cdbf841f9acba8ee6f964d792185221c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+385e7cb5f274e99e2c1e2b2937a98c79af4fac0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Explicação POO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Explicação POO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

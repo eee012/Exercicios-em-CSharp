@@ -1,5 +1,6 @@
 ﻿using Explicação_POO_Leve;
 using System.Data.Common;
+using System.Runtime.CompilerServices;
 
 //POO
 //Heranca - Uma classe derivada de uma superclasse (Atributos, Metodos)
@@ -49,3 +50,17 @@ moto.ExibirDetalhes();
 //Classe derivada (Assembly diferente)	        ✔️	  ✔️     	❌     	 ❌
 //Classe não derivada (Assembly diferente)	    ✔️	  ❌	    ❌	     ❌
 
+//// Uma classe abstrata não pode ser instanciada diretamente
+//public abstract class Funcionario
+//{
+//    public string Nome { get; set; }
+
+//    // ABSTRACT: Sem corpo. Cada subclasse DEVE dizer como trabalha.
+//    public abstract void Trabalhar();
+
+//    // VIRTUAL: Tem corpo. Fornece um comportamento padrão.
+//    public virtual decimal CalcularBonus(decimal salario)
+//    {
+//        return salario * 0.10m; // 10% de bônus padrão
+//    }
+//}
